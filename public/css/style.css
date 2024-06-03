@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: right 20px;
+}
+#logo {
+    color: black;
+    font-size: 40pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* letter-spacing: -4px; */
+
+}
+
+#dot {
+    color: blue;
+    font-size: 50pt;
+}
+
+#nav-links {
+    display: flex;
+    list-style: none;
+    font-family: 'open sans';
+    justify-content: space-evenly;
+    text-decoration: none;
+    gap: 35px;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: aqua;
+    width: 100%; 
+    height: 70px; 
+}
+.intro {
+display: flex;
+justify-content: space-between;
+padding: 0px 5px;
+}
+body {font-family: 'Times New Roman', Times, serif;
+
+}
+/* .nav-items{
+    coloor: black;
+    text-decoration: none;
+} */
+
+#home, #features, #about, #testimonials, #blog, #contact {
+    color: black;
+    text-decoration: none;
+}
