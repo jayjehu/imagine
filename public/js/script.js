@@ -81,6 +81,64 @@ const tweet1 = {
   for (let i = 0; i <= 9; i+=1) {
     console.log('Notify friends!', i);
   }
+
+
+
+
+
+
+
+
+
+  
+// Functions
+// Defining functions
+function login(username, password) {
+  if (username == 'jehul' && password == '1234') {
+    return'User is logged in!';
+  } else if (username != 'jehul') {
+    return 'Invalid username';  
+  } else if ('password'!= '1234') {
+    return 'Invalid password!';
+  } else {
+    return 'Invalid username or pasword!'
+  }
+}
+// Invoking functions
+login('jehul', '1234')
+
+// Basic Arithmetic
+12 + 865;      
+45 - 16;
+15 * 52;
+4856 / 45;
+
+37 / 24;
+
+37 % 24;
+
+// Comparison operators
+2 === '2';
+8 === 8;
+3 !== 2;
+3 !== 3;
+3 !== '3';
+
+// Built-in Math functions
+Math.round(37 / 24);
+Math.floor(37 / 24);
+Math.ceil(37 / 24);
+Math.random();
+Math.max(78, 676, 5, 378);
+
+Math.ceil(Math.random() * 1000000);
+
+// Order of operations
+1 * 2 + 3 - 4 / 2 + 2**2;
+
+// Handling user inputs
+1200 + Number('250');
+1200 + Number('delete')
   
   
   
