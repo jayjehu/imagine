@@ -82,6 +82,31 @@ const tweet1 = {
     console.log('Notify friends!', i);
   }
 
+  // concatenation
+const firstname = 'Jehu';
+const lastname = 'Laryea';
+firstname.trim() + ' ' + lastname.trim();
+
+// Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods 
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+lastname.toUpperCase();
+lastname.charAt(4);
+`${firstname.trim()} ${lastname.trim()}`.charAt(5);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+// String conversion
+String(2014);
+
+
+
+
+
 
 
 
