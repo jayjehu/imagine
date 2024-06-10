@@ -165,6 +165,71 @@ Math.ceil(Math.random() * 1000000);
 1200 + Number('250');
 1200 + Number('delete')
   
+// Write a function that will add a participant to our Google Classroom
+
+const participants = [];
+function addParticipant(email) {
+   // Check if email was provided
+  if (!email) {
+    return 'Email not provided!'
+  }
+  // Check if email is valid
+  if (!email.includes('@')) {
+    return 'Invalid email provided!'
+  }
+  
+  // Add email to participants
+  participants.push(email);
+  //Notify them via mail
+  //return respnse
+  return 'Participant added!'; 
+}
+
+addParticipant('jehularyea@gmail.com');
+
+// Arrays in JavaScript
+const alphabets = ['A', 'B', 'C', 'D'];
+alphabets;
+alphabets.join('');
+alphabets.join('').split('');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   
   
   
